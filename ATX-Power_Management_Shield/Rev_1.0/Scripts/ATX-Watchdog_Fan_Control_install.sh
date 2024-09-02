@@ -9,7 +9,7 @@ WAIT_TIME = 1           # [s] Time to wait between each refresh
 
 # Configurable temperature and fan speed
 ATX_WATCHDOG_ADDRESS = 0x5A #I2C address
-CHANGE_FAN_SPEED = 0x84     #Fan speed register
+CHANGE_FAN_SPEED = 0x85     #Fan speed register
 MIN_TEMP = 40
 MAX_TEMP = 70
 FAN_LOW = 40
